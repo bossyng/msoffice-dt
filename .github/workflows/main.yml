@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@4						   
+    - uses: actions/checkout@3						   
     - name: Build (generate artifact)
       run: |
         mkdir -p dist
